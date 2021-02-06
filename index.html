@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<title>社会福祉法人あーるど</title>
+<head>
+    <!--<meta http-equiv="refresh" content="30;URL=top.php">-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/jpn.css">
+<link rel="stylesheet" href="css/jquery.simplyscroll.css">
+<link rel="shortcut icon" href="http://teco-llc.net/web/aorld/favicon.ico">
+    <style type="text/css" media="screen">
+    video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 1;
+    }
+    .text {
+        position: relative; /*必ず必要*/
+        z-index: 2; /*必ず必要*/
+        text-align:center;
+        width:100%;
+        padding:20px;
+        margin: 0 auto;
+        margin-top: 20%;
+        background-color: rgba(255,0,0,0.5);
+        color: #FFF;
+    }
+</style>
+</head>
+
+<body style="margin-bottom:0;">
+    <div class="container mb-5">
+        <div class="row mt-3 px-4 align-items-center">
+            <div class="col-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><img src="img/index/1.jpg" alt="" class="w-75"></li>
+                </ul>
+            </div>
+            <div class="col-6 text-right">
+                <a href="top.html"><img src="img/index/2.jpg" alt="" width="20%"></a>
+                <a href="https://www.facebook.com/aorldofficial/"><img src="img/index/3.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-3 pb-4">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="embed-responsive embed-responsive-16by9"">
+                    <video class="embed-responsive-item" src="movie/itsunomanika.mp4" playsinline controls autoplay loop muted allowfullscreen></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      var pbar = document.getElementById('prog');
+      var ptxt = document.getElementById('outp');
+      var pup = setInterval("upPrgrss()",100);
+      function upPrgrss(){
+        if(pbar.value<=pbar.max){
+            pbar.value++;       /*「++」で 1 ずつ足してます*/
+            ptxt.value = pbar.value;
+        }else{
+            clearInterval(pup);
+        }
+    }
+</script>
+</body>
+
+</html>

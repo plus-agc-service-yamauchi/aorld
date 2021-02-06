@@ -1,0 +1,218 @@
+/* 固定フッタスタイル
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 200px;
+    /* フッタの下側マージンの高さ */
+    background-image: url('../img/oohashi.png') no-repeat;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#header {
+    background-color: #FF0000;
+    padding: 10px;
+    color: #FFF;
+    border-bottom: solid 30px #B3B19A;
+}
+
+#footer {
+    background-color: #FF0000;
+    padding: 20px;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+#footer a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.news {
+    background-color: #B3B19A;
+    padding: 5px;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.link {
+    background-color: #B3B19A;
+    padding: 5px;
+}
+
+.tw {
+    color: #55acee;
+}
+
+.fb {
+    color: #3B5998;
+}
+
+a {
+    color: #B3B19A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B3B19A;
+    text-decoration: none;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.text-gray {
+    color: #B3B19A;
+}
+
+.dropdown-item {
+    color: #B3B19A;
+}
+
+.dropdown-item a:hover {
+    color: #B3B19A;
+}
+
+.text-red {
+    color: #FF0000;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.bd-gray {
+    border: solid 5px #B3B19A;
+    padding: 10px 0;
+    color: #B3B19A;
+}
+
+.bg-gray {
+    background-color: #B3B19A;
+    padding: 5px;
+    color: #FFF
+}
+
+.indent {
+    text-indent: 1.5em;
+}
+
+.indent_m {
+    text-indent: 3em;
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+}
+
+.outline {
+    display: inline-block;
+    color: #ffffff;
+    /* 文字の色 */
+    font-size: 36pt;
+    /* 文字のサイズ */
+    letter-spacing: 2px;
+    /* 文字間 */
+    text-shadow: 1px 1px 0px #b3b19a,
+    -1px 1px 0px #b3b19a,
+    1px -1px 0px #b3b19a,
+    -1px -1px 0px #b3b19a,
+    1px 0px 0px #b3b19a,
+    0px 1px 0px #b3b19a,
+    -1px 0px 0px #b3b19a,
+    0px -1px 0px #b3b19a;
+    /* 文字の影 */
+}
+
+.line_one {
+    background: url("../img/shop/line1.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.line_two {
+    background: url("../img/shop/line2.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.line_three {
+    background: url("../img/shop/line3.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.line_four {
+    background: url("../img/shop/line4.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.line_five {
+    background: url("../img/shop/line5.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.line_six {
+    background: url("../img/shop/line6.png") no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.small {
+    font-size: 80%;
+}
+
+.bg-magenta {
+    background: #E3007F;
+}
+
+.text-magenta {
+    color: #E3007F;
+}
+
+.bg-yellow {
+    background: #FAED00;
+}
+
+.simply-scroll-container {
+    position: relative;
+}
+
+.simply-scroll-clip {
+    position: relative;
+    overflow: hidden;
+}
+
+.simply-scroll-list {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.simply-scroll-list li {
+    float: left;
+    /* Horizontal scroll only */
+    padding: 0;
+    margin: 0;
+    width: 481px;
+    height: 319px;
+}
+
+.simply-scroll-list li img {
+    display: block;
+}
